@@ -29,7 +29,7 @@ Minimal configuration:
 auth: {
   strategies: {
     social: {
-      name: 'openIDConnect',
+      scheme: 'openIDConnect',
       clientId: 'CLIENT_ID',
       endpoints: {
         configuration: 'https://accounts.google.com/.well-known/openid-configuration',
@@ -44,7 +44,7 @@ Default configuration:
 auth: {
   strategies: {
     social: {
-      name: 'openIDConnect',
+      scheme: 'openIDConnect',
       endpoints: {
         configuration: 'https://accounts.google.com/.well-known/openid-configuration',
       },
